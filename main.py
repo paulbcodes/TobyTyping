@@ -29,13 +29,6 @@ input_rect = pygame.Rect(250, 300, 340, 30)
 
 mytheme = pygame_menu.themes.THEME_ORANGE.copy()
 mytheme.title_background_color=(0, 0, 0)
-
-myimage = pygame_menu.baseimage.BaseImage(
-    image_path=pygame_menu.baseimage.Images/bg1.png,
-    drawing_mode=pygame_menu.baseimage.IMAGE_MODE_REPEAT_XY,
-    offset=(0,0)
-)
-mytheme.background_color = myimage
 menu = pygame_menu.Menu('MENU', 400, 300, theme=mytheme)
 
 #Game Function
